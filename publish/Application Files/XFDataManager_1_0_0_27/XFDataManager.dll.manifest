@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="XFDataManager.exe" version="1.0.0.27" publicKeyToken="f4c98745af8f1fec" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="XFDMIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1">Track data and manage planning for a microgreens farms(s) I.e.: Temperature and Humidity
+Environmental Data and Planting specific data for analysis.
+
+From experimental growing recipes to final master recipes with recording each planting data from seed quantity to harvest volume.
+
+Available in Simple or Advanced Mode:
+Advanced mode include Multpile Sites and Business Management features like Order &amp; Tracking of Planting, Cost Calculations to Profit and Loss calculations.</description>
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17328">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f57QGh/3gepeSOmzO/Sw9I6H62BFNn+j9+DSRTYBPeY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Microsoft.Data.SqlClient.SNI.dll" size="504872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V62wj96X0ypo0ww35caLjN0ZtS60EABD3/0WrNwUld4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XFDataManager.dll.config" size="2780">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mg34sjqIhYArqtPjYkUuGheNHkEs4QWNqmZ9MU3NdT4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XFDataManager.exe" size="31512264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zyybO5TJF/JvGAaco2iOFI1mq48O0vxlbOdo+gxqz70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XFDMIcon.ico" size="200727">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+3qrsn7tKm1/gVtPVKav4bCGis6SW2Zr5hREzpxZ0w0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XRIG001\xeric" issuerKeyHash="0e8bde0d7fcd2aef0a9c01a2985bdf1fd0a44b16" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Xbf4xhBpMwMArKbXJEPxJzc+J2aAeaRwFT7l9Z/Am8U=</DigestValue></Reference></SignedInfo><SignatureValue>3Y5nS9gd7IAz/AOL6INGwdkml9ZUyblxpenS+TdSDEitukx27Mw33QiKgvz3EZurqykNuF0q0poftkuZoo8pH4upZcG5cxoyHIkqvBQF/NSxa8IljgOsrx5GY6PU8oOV8sqHDL+l8bRG3c4vLq4E6xZp5ybEIranUk84g244+Vc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6M8ZuTXx/ZbgJW08nXJqIrKCMRzAho7PNwJN5JX897wSqTDoz745tx0L0OJtETd+uU2e8PXt8k2i36Lew3bjo9EMsj8+daVnD/UVNIXDR6zh1SNVMWmlKrZJb9H8NlHNy91lfJeT/MXMnONbp7n9l1wfwOdwI3ZoY2Vy20Mv1BE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c59bc09ff5e53e1570a4798066273e3727f14324d7a6ac0003336910c6f8b75d" Description="" Url=""><as:assemblyIdentity name="XFDataManager.exe" version="1.0.0.27" publicKeyToken="f4c98745af8f1fec" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XRIG001\xeric</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eOA0h6acrZWPVm93SHA3AjvC09sfok9zDRfdDHOVGQ4=</DigestValue></Reference></SignedInfo><SignatureValue>AAiSiovx6O6VrDHF5L3vco7dQzcwzTyqHH7ZcrmDhd5PEIfV/3XIMJLFkYiwh44upmt1+m3OSWtjrKl3XO7OugmFj2Nt+gIJQzLywvwRMftyT1Gxv/s9eV3XWMOr+jr9PrJ6I9fA/DNKfRZB1+fwV+CfmPMzTAhmE8oGyZvZ7Uc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6M8ZuTXx/ZbgJW08nXJqIrKCMRzAho7PNwJN5JX897wSqTDoz745tx0L0OJtETd+uU2e8PXt8k2i36Lew3bjo9EMsj8+daVnD/UVNIXDR6zh1SNVMWmlKrZJb9H8NlHNy91lfJeT/MXMnONbp7n9l1wfwOdwI3ZoY2Vy20Mv1BE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQILcSp5ezNZJMTljMdVPv/DANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAWABSAEkARwAwADAAMQBcAHgAZQByAGkAYzAeFw0yNTA0MTcwMzU1NTlaFw0yNjA0MTcwOTU1NTlaMCUxIzAhBgNVBAMeGgBYAFIASQBHADAAMAAxAFwAeABlAHIAaQBjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDozxm5NfH9luAlbTydcmoisoIxHMCGjs83Ak3klfz3vBKpMOjPvjm3HQvQ4m0RN365TZ7w9e3yTaLfot7DduOj0QyyPz51pWcP9RU0hcNHrOHVI1UxaaUqtklv0fw2Uc3L3WV8l5P8xcyc41unuf2XXB/A53AjdmhjZXLbQy/UEQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACKQ5NeEQiKjShqftoXjUbsUX2xNY9n8Ov/ZSUykYtvWao8PrOiFe8UpWqjcMsI292d650Sp12iyl6ynpW9Mb/yhTqjRyqGVHGRxLZQPmDxoFGnloVWog44z6axKT3gvz0yg3QkFB1iFylPNNu663UUhwD/gtK6bVV0ZYGoeKPlc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
