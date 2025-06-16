@@ -1,2 +1,3 @@
 # xfdm
-NtshuTech XericFarm Datamanager Install
+NtsuTech Xeric Farm Data Manager
+
