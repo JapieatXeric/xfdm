@@ -1,3 +1,3 @@
-# xfdm
-NtsuTech Xeric Farm Data Manager
+# XFDM
+NtsuTech's - Xeric Farms Data Manager
 
